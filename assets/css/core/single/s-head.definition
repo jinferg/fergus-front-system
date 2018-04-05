@@ -10,11 +10,11 @@
 @s-head__bold: @bold;
 
 // Spacing Variables
-@s-head__xtight: @xtight;
-@s-head__tight: @tight;
-@s-head__narrow: @narrow;
-@s-head__wide: @wide;
-@s-head__xwide: @xwide;
+@s-head__xtight: @vr1;
+@s-head__tight: @vr2;
+@s-head__narrow: @vr3;
+@s-head__wide: @vr4;
+@s-head__xwide: @vr5;
 
 // Custom
 @s-head__cond: -1px;
@@ -40,155 +40,155 @@
 
   &.-h1 {
     font-size: @h1;
-    line-height: @h1-height;
+    line-height: 1.25;
     &.-resp {
       @media @mobile {
         font-size: @h3;
-        line-height: @h3-height;
+        line-height: 1.25;
       }
       @media @tablet {
         font-size: @h2;
-        line-height: @h2-height;
+        line-height: 1.25;
       }
     }
   }
   &.-h2 {
     font-size: @h2;
-    line-height: @h2-height;
+    line-height: 1.25;
     &.-resp {
       @media @mobile {
         font-size: @h4;
-        line-height: @h4-height;
+        line-height: 1.25;
       }
       @media @tablet {
         font-size: @h3;
-        line-height: @h3-height;
+        line-height: 1.25;
       }
     }
   }
   &.-h3 {
     font-size: @h3;
-    line-height: @h3-height;
+    line-height: 1.25;
     &.-resp {
       @media @mobile {
         font-size: @h5;
-        line-height: @h5-height;
+        line-height: 1.25;
       }
       @media @tablet {
         font-size: @h4;
-        line-height: @h4-height;
+        line-height: 1.25;
       }
     }
   }
   &.-h4 {
     font-size: @h4;
-    line-height: @h4-height;
+    line-height: 1.25;
     &.-resp {
       @media @mobile {
         font-size: @h6;
-        line-height: @h6-height;
+        line-height: 1.25;
       }
       @media @tablet {
         font-size: @h5;
-        line-height: @h5-height;
+        line-height: 1.25;
       }
     }
   }
   &.-h5 {
     font-size: @h5;
-    line-height: @h5-height;
+    line-height: 1.25;
     &.-resp {
       @media @mobile {
         font-size: @h6;
-        line-height: @h6-height;
+        line-height: 1.25;
       }
       @media @tablet {
         font-size: @h6;
-        line-height: @h6-height;
+        line-height: 1.25;
       }
     }
   }
   &.-h6 {
     font-size: @h6;
-    line-height: @h6-height;
+    line-height: 1.25;
   }
 
   @media @mobile {
     &.-m-h1 {
       font-size: @h1;
-      line-height: @h1-height;
+      line-height: 1.25;
     }
     &.-m-h2 {
       font-size: @h2;
-      line-height: @h2-height;
+      line-height: 1.25;
     }
     &.-m-h3 {
       font-size: @h3;
-      line-height: @h3-height;
+      line-height: 1.25;
     }
     &.-m-h4 {
       font-size: @h4;
-      line-height: @h4-height;
+      line-height: 1.25;
     }
     &.-m-h5 {
       font-size: @h5;
-      line-height: @h5-height;
+      line-height: 1.25;
     }
     &.-m-h6 {
       font-size: @h6;
-      line-height: @h6-height;
+      line-height: 1.25;
     }
   }
   @media @tablet {
     &.-t-h1 {
       font-size: @h1;
-      line-height: @h1-height;
+      line-height: 1.25;
     }
     &.-t-h2 {
       font-size: @h2;
-      line-height: @h2-height;
+      line-height: 1.25;
     }
     &.-t-h3 {
       font-size: @h3;
-      line-height: @h3-height;
+      line-height: 1.25;
     }
     &.-t-h4 {
       font-size: @h4;
-      line-height: @h4-height;
+      line-height: 1.25;
     }
     &.-t-h5 {
       font-size: @h5;
-      line-height: @h5-height;
+      line-height: 1.25;
     }
     &.-t-h6 {
       font-size: @h6;
-      line-height: @h6-height;
+      line-height: 1.25;
     }
   }
   @media @desktop {
     &.-d-h1 {
       font-size: @h1;
-      line-height: @h1-height;
+      line-height: 1.25;
     }
     &.-d-h2 {
       font-size: @h2;
-      line-height: @h2-height;
+      line-height: 1.25;
     }
     &.-d-h3 {
       font-size: @h3;
-      line-height: @h3-height;
+      line-height: 1.25;
     }
     &.-d-h4 {
       font-size: @h4;
-      line-height: @h4-height;
+      line-height: 1.25;
     }
     &.-d-h5 {
       font-size: @h5;
-      line-height: @h5-height;
+      line-height: 1.25;
     }
     &.-d-h6 {
       font-size: @h6;
-      line-height: @h6-height;
+      line-height: 1.25;
     }
   }
 
@@ -272,37 +272,37 @@
 // ------------------------------
 h1.s-head.-format {
   font-size: @h1;
-  line-height: @h1-height;
+  line-height: 1.25;
   margin-top: @line-height * 3;
   margin-bottom: @line-height;
 }
 h2.s-head.-format {
   font-size: @h2;
-  line-height: @h2-height;
+  line-height: 1.25;
   margin-top: @line-height * 3;
   margin-bottom: @line-height;
 }
 h3.s-head.-format {
   font-size: @h3;
-  line-height: @h3-height;
+  line-height: 1.25;
   margin-top: @line-height * 2;
   margin-bottom: @line-height;
 }
 h4.s-head.-format {
   font-size: @h4;
-  line-height: @h4-height;
+  line-height: 1.25;
   margin-top: @line-height;
   margin-bottom: @line-height;
 }
 h5.s-head.-format {
   font-size: @h5;
-  line-height: @h5-height;
+  line-height: 1.25;
   margin-top: @line-height;
   margin-bottom: @line-height;
 }
 h6.s-head.-format {
   font-size: @h6;
-  line-height: @h6-height;
+  line-height: 1.25;
   margin-top: @line-height;
   margin-bottom: @line-height;
 }

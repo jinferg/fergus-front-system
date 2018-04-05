@@ -57,6 +57,21 @@
   .l-col-generate-push(5,push-m,-5); // Column Push Set
   .l-col-generate-pull(5,pull-m,-5); // Column Pull Set
 }
+
+@media @mobile-ls-inherit {
+  .l-col-generate(@default-columns,ml); // Column Set
+  .l-col-generate-push(@default-columns,push-ml); // Column Push Set
+  .l-col-generate-pull(@default-columns,pull-ml); // Column Pull Set
+
+  .l-col-generate(3,m,-3); // Column Set
+  .l-col-generate-push(3,push-ml,-3); // Column Push Set
+  .l-col-generate-pull(3,pull-ml,-3); // Column Pull Set
+
+  .l-col-generate(5,m,-5); // Column Set
+  .l-col-generate-push(5,push-ml,-5); // Column Push Set
+  .l-col-generate-pull(5,pull-ml,-5); // Column Pull Set
+}
+
 @media @tablet-inherit {
   .l-col-generate(@default-columns,t); // Column Set
   .l-col-generate-push(@default-columns,push-t); // Column Push Set
@@ -70,6 +85,7 @@
   .l-col-generate-push(5,push-t,-5); // Column Push Set
   .l-col-generate-pull(5,pull-t,-5); // Column Pull Set
 }
+
 @media @desktop-inherit {
   .l-col-generate(@default-columns,d); // Column Set
   .l-col-generate-push(@default-columns,push-d); // Column Push Set
@@ -101,24 +117,36 @@
 .l-col {
 
   position: relative;
-  &.-centered {
+  &.-center {
     float: none;
     margin: auto;
   }
-  &.-m-centered {
+  &.-m-center {
     @media @mobile {
       float: none;
       margin: auto;
     }
   }
-  &.-t-centered {
+  &.-ml-center {
+    @media @mobile-ls {
+      float: none;
+      margin: auto;
+    }
+  }
+  &.-t-center {
     @media @tablet {
       float: none;
       margin: auto;
     }
   }
-  &.-d-centered {
+  &.-d-center {
     @media @desktop {
+      float: none;
+      margin: auto;
+    }
+  }
+  &.-v-center {
+    @media @tv {
       float: none;
       margin: auto;
     }

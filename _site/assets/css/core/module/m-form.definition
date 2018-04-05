@@ -12,7 +12,7 @@
   label {
     position: relative;
     display: block;
-    margin-bottom: @vr0;
+    padding-bottom: @vr0;
     font-size: @h6;
     font-weight: @semi-bold;
     color: @black;
@@ -29,12 +29,12 @@
     }
   }
 
-  input {
+  input:not([type="submit"]) {
     display: block;
     outline: 0;
     border: none;
     width: 100%;
-    max-width: @vr1 * 4;
+    max-width: @vr10 * 4;
     min-height: @vr5;
     padding-left: @vr1 + @vr0;
     font-size: @h5;
@@ -56,6 +56,9 @@
   &__item {
     display: block;
     margin-bottom: @vr2;
+    &.-last {
+      margin-bottom: -0;
+    }
   }
 
   &__message {

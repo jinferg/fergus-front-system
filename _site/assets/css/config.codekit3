@@ -7,231 +7,276 @@
 		"uuidString": "4C97D86C-44C6-492A-B447-A23B3AED8341"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26330",
 "files": {
 	"\/core\/base\/b-config.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/base\/b-config.definition",
 		"oF": 0
 		},
 	"\/core\/base\/b-global.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/base\/b-global.definition",
 		"oF": 0
 		},
 	"\/core\/base\/b-mixins.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/base\/b-mixins.definition",
 		"oF": 0
 		},
 	"\/core\/base\/b-reset.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/base\/b-reset.definition",
 		"oF": 0
 		},
 	"\/core\/import.definitions": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/import.definitions",
 		"oF": 0
 		},
 	"\/core\/layout\/l-band.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/layout\/l-band.definition",
 		"oF": 0
 		},
 	"\/core\/layout\/l-col.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/layout\/l-col.definition",
 		"oF": 0
 		},
 	"\/core\/layout\/l-frame.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/layout\/l-frame.definition",
 		"oF": 0
 		},
+	"\/core\/layout\/l-grid.definition": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/core\/layout\/l-grid.definition",
+		"oF": 0
+		},
 	"\/core\/layout\/l-row.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/layout\/l-row.definition",
 		"oF": 0
 		},
 	"\/core\/layout\/l-wrap.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/layout\/l-wrap.definition",
 		"oF": 0
 		},
 	"\/core\/module\/m-accordian.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/module\/m-accordian.definition",
 		"oF": 0
 		},
 	"\/core\/module\/m-breadcrumb.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/module\/m-breadcrumb.definition",
 		"oF": 0
 		},
 	"\/core\/module\/m-card.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/module\/m-card.definition",
 		"oF": 0
 		},
 	"\/core\/module\/m-flag.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/module\/m-flag.definition",
 		"oF": 0
 		},
 	"\/core\/module\/m-form.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/module\/m-form.definition",
 		"oF": 0
 		},
 	"\/core\/module\/m-list.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/module\/m-list.definition",
 		"oF": 0
 		},
 	"\/core\/module\/m-modal.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/module\/m-modal.definition",
 		"oF": 0
 		},
 	"\/core\/module\/m-nav.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/module\/m-nav.definition",
 		"oF": 0
 		},
 	"\/core\/module\/m-tab.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/module\/m-tab.definition",
 		"oF": 0
 		},
 	"\/core\/module\/m-table.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/module\/m-table.definition",
 		"oF": 0
 		},
 	"\/core\/single\/s-btn.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/single\/s-btn.definition",
 		"oF": 0
 		},
 	"\/core\/single\/s-head.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/single\/s-head.definition",
 		"oF": 0
 		},
 	"\/core\/single\/s-icon.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/single\/s-icon.definition",
 		"oF": 0
 		},
 	"\/core\/single\/s-img.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/single\/s-img.definition",
 		"oF": 0
 		},
 	"\/core\/single\/s-line.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/single\/s-line.definition",
 		"oF": 0
 		},
 	"\/core\/single\/s-thumb.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/single\/s-thumb.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-align.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-align.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-border.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-border.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-color.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-color.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-dist.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-dist.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-fade.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-fade.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-fill.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-fill.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-float.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-float.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-hide.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-hide.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-marg.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-marg.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-pad.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-pad.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-pos.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-pos.definition",
 		"oF": 0
 		},
 	"\/core\/utility\/u-show.definition": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/core\/utility\/u-show.definition",
@@ -271,7 +316,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 506946550,
-	"displayValue": "zap-promo",
+	"displayValue": "Marketing - Front System",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_orange"
 	},
@@ -281,6 +326,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -809,6 +855,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -840,6 +890,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -873,9 +927,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -905,6 +959,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -914,14 +972,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2025,7 +2075,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -2058,6 +2109,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2099,7 +2151,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2131,13 +2184,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2146,7 +2199,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2166,7 +2220,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2194,7 +2249,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,

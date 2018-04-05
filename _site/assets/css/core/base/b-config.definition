@@ -2,33 +2,34 @@
 // ============================================================
 
 
-// Defaults
+// DEFAULTS
 // ------------------------------
 
 @max-width: 1440px;
 @radius: 4px;
-@background: #fff;
+@background: #F6F8FA;
 @default-columns: 16;
-@border: 1px solid #e4e4e4;
+@border: 1px solid #D4DEE8;
 
-// Typography
+// TYPOGRAPHY
 // ------------------------------
 
-@font-family: 'Catamaran', sans-serif;
-@font-size: 1.5rem; // html sets font-size to 62.5% which makes calculating rems easy 1.4rem = 14px etc
+@font-family: 'Assistant', sans-serif;
+@font-size: 1.6rem; // html sets font-size to 62.5% which makes calculating rems easy 1.4rem = 14px etc
 @thin: 200;
 @light: 300;
 @regular: 400;
-@medium: 500;
+@medium: 600;
 @semi-bold: 600;
 @bold: 700;
-@line-height: 2.4rem; // 24px
+@black: 800;
+@line-height: 2.4rem; // 20px
 
 
-// Colors
+// COLORS
 // ------------------------------
 
-// Default
+// Basic
 @red: #FF4C24;
 @orange: #FF7C52;
 @yellow: #FFB019;
@@ -38,31 +39,39 @@
 @black: #000000;
 @white: #fff;
 
-// Special
-@default-color: #687A83;
-@brand-color: #4580FF;
-@accent-color: #45D8FF;
+// Product
+@default-color: #4D5871;
+@brand-color: #FF6F4B;
+@accent-color: #FFB500;
 @link-color: @accent-color;
-@input-color: darken(@white, 4%);
-@shade-light: rgba(0,0,0,.05);
+@heading-color: #20293E;
+@input-color: white;
+
+// Utility
+@shade-light: rgba(100,120,160,.05);
 @shade: rgba(0,0,0,.1);
-@shade-heavy: rgba(0,0,0,.15);
+@shade-heavy: rgba(0,0,0,.2);
+@shine-light: rgba(255,255,255,.05);
+@shine: rgba(255,255,255,.1);
+@shine-heavy: rgba(255,255,255,.2);
 
 
-// Breakpoints
+// BREAKPOINTS
 // ------------------------------
 
-@tv:              ~"only screen and (min-width : 1600px)";
-@desktop:         ~"only screen and (min-width : 960px)";
-@tablet:          ~"only screen and (min-width : 720px) and (max-width : 959px)";
-@mobile:          ~"only screen and (max-width : 719px)";
+@tv:                  ~"only screen and (min-width : 1920px)";
+@desktop:             ~"only screen and (min-width : 1440px) and (max-width : 1919px)";
+@tablet:              ~"only screen and (min-width : 1024px) and (max-width : 1439px)";
+@mobile-ls:           ~"only screen and (min-width : 667px) and (max-width : 1023px)";
+@mobile:              ~"only screen and (max-width : 666px)";
 
-@tv-inherit:      ~"only screen and (min-width: 1600px)";
-@desktop-inherit: ~"only screen and (min-width: 960px)";
-@tablet-inherit:  ~"only screen and (min-width: 720px)";
-@mobile-inherit:  ~"only screen";
+@tv-inherit:          ~"only screen and (min-width: 1920px)";
+@desktop-inherit:     ~"only screen and (min-width: 1440px)";
+@tablet-inherit:      ~"only screen and (min-width: 1024px)";
+@mobile-ls-inherit:   ~"only screen and (min-width: 667px)";
+@mobile-inherit:      ~"only screen";
 
-// Vertical Rhythm
+// VERTICAL RHYTHM
 // ------------------------------
 // Unit Scale for Padding, Margin etc
 
@@ -88,11 +97,6 @@
 @vr19: 19rem;
 @vr20: 20rem;
 
-@xtight: @vr1;
-@tight: @vr2;
-@narrow: @vr4;
-@wide: @vr8;
-@xwide: @vr16;
 
 // Typography Scale
 // ------------------------------
@@ -101,12 +105,5 @@
 @h2: 2.8rem;
 @h3: 2.4rem;
 @h4: 1.8rem;
-@h5: 1.5rem;
-@h6: 1.3rem;
-
-@h1-height: 4.5rem;
-@h2-height: 3.5rem;
-@h3-height: 3rem;
-@h4-height: 2.3rem;
-@h5-height: 1.9rem;
-@h6-height: 1.6rem;
+@h5: 1.6rem;
+@h6: 1.4rem;

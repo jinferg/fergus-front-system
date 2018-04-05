@@ -8,6 +8,11 @@
       display: none !important;
     }
   }
+  &-ml {
+    @media @mobile-ls {
+      display: none !important;
+    }
+  }
   &-t {
     @media @tablet {
       display: none !important;
@@ -15,6 +20,11 @@
   }
   &-d {
     @media @desktop {
+      display: none !important;
+    }
+  }
+  &-v {
+    @media @tv {
       display: none !important;
     }
   }

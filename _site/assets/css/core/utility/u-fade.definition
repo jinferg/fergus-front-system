@@ -1,17 +1,17 @@
 // Fade Utility
 // ============================================================
 
-@u-fade-light: .8;
+@u-fade__light: .8;
 @u-fade: .5;
-@u-fade-heavy: .2;
+@u-fade__heavy: .2;
 
 .u-fade {
 	opacity: @u-fade !important;
 	&-light {
-		opacity: @u-fade-light !important;
+		opacity: @u-fade__light !important;
 	}
 	&-heavy {
-		opacity: @u-fade-heavy !important;
+		opacity: @u-fade__heavy !important;
 	}
 	&-1 {
 		opacity: .1;

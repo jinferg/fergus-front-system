@@ -11,7 +11,8 @@
 // Layout
 // ------------------------------
 @import "layout/l-wrap.definition";
-@import "layout/l-Frame.definition";
+@import "layout/l-frame.definition";
+@import "layout/l-grid.definition";
 @import "layout/l-row.definition";
 @import "layout/l-col.definition";
 @import "layout/l-band.definition";
