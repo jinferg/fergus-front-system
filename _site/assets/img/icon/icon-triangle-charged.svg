@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Studio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-5" transform="translate(-681.000000, -350.000000)" stroke="#52FFF1" stroke-width="2">
+            <path d="M689.221853,353.913905 L692.216956,358.982541 L692.216956,358.982541 C692.778883,359.933495 692.463515,361.159926 691.512562,361.721853 C691.204409,361.903944 690.853035,362 690.495103,362 L684.504897,362 L684.504897,362 C683.400327,362 682.504897,361.104569 682.504897,360 C682.504897,359.642068 682.600953,359.290695 682.783044,358.982541 L685.778147,353.913905 L685.778147,353.913905 C686.340074,352.962952 687.566505,352.647584 688.517459,353.209511 C688.807909,353.38114 689.050223,353.623455 689.221853,353.913905 Z" id="Triangle" transform="translate(687.500000, 356.500000) scale(1, -1) translate(-687.500000, -356.500000) "></path>
+        </g>
+    </g>
+</svg>

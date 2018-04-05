@@ -1,0 +1,59 @@
+// Fill Utility
+// ============================================================
+
+@u-fill-red: @red;
+@u-fill-orange: @orange;
+@u-fill-yellow: @yellow;
+@u-fill-green: @green;
+@u-fill-blue: @blue;
+@u-fill-purple: @purple;
+@u-fill-black: @black;
+@u-fill-white: @white;
+@u-fill-shade: @shade;
+@u-fill-shade-light: @shade-light;
+@u-fill-shade-heavy: @shade-heavy;
+
+@u-fill-brand: @brand-color;
+@u-fill-accent: @accent-color;
+
+.u-fill {
+  &-red {
+    background-color: @u-fill-red !important;
+  }
+  &-orange {
+    background-color: @u-fill-orange !important;
+  }
+  &-yellow {
+    background-color: @u-fill-yellow !important;
+  }
+  &-green {
+    background-color: @u-fill-green !important;
+  }
+  &-blue {
+    background-color: @u-fill-blue !important;
+  }
+  &-purple {
+    background-color: @u-fill-purple !important;
+  }
+  &-black {
+    background-color: @u-fill-black !important;
+  }
+  &-white {
+    background-color: @u-fill-white !important;
+  }
+  &-brand {
+    background-color: @u-fill-brand !important;
+  }
+  &-accent {
+    background-color: @u-fill-accent !important;
+  }
+  &-shade {
+    background-color: @u-fill-shade !important;
+  }
+  &-shade-light {
+    background-color: @u-fill-shade-light !important;
+  }
+  &-shade-heavy {
+    background-color: @u-fill-shade-heavy !important;
+  }
+}

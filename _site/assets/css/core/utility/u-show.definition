@@ -1,0 +1,21 @@
+// Show Utility
+// ============================================================
+
+.u-show {
+  display: block !important;
+  &-m {
+    @media @mobile {
+      display: block !important;
+    }
+  }
+  &-t {
+    @media @tablet {
+      display: block !important;
+    }
+  }
+  &-d {
+    @media @desktop {
+      display: block !important;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+title: "Zap CSS"
+meta: "Scalable CSS system built with collaboration in mind. Bring your project to a whole new level with industry’s best CSS practices."
+collections:
+  doc:
+    output: true

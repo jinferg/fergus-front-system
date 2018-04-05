@@ -1,0 +1,631 @@
+<!doctype html>
+<html>
+<head>
+  <title>Form</title>
+
+  <!-- Page Meta -->
+  <meta charset="utf-8" />
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Social Media Open Graph -->
+  <meta property="og:title" content="Form">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="/thumbnail.jpg">
+  <meta property="og:url" content="">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="apple-touch-icon" sizes="180x180" href="/iPhone-6-Plus.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link rel="stylesheet" href="/assets/css/zap.css">
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="/assets/vendor/prism/prism.js"></script>
+<script src="/assets/vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="/assets/vendor/zapTab/zapTab.js"></script>
+<script src="/assets/js/main.js"></script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXX-X', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+<body>
+
+<header class="l-band -white -border u-pos-fixed-top">
+	<div class="l-wrap">
+		<nav class="m-nav">
+			<nav class="m-nav">
+				<div class="m-nav__group">
+					<a href="/" class="m-nav__item -no-pad -no-state">
+						<h3 class="s-head -semi-bold u-color-brand">Zap CSS</h3>
+					</a>
+				</div>
+
+				<div class="m-nav__group -right">
+					<a href="/doc" class="m-nav__item u-hide-m is-active">
+						Get Started
+					</a>
+					<a href="https://github.com/studiobeneath/zap-css" class="m-nav__item u-hide-m">
+						Book a Team Workshop
+					</a>
+					<div class="m-nav__item u-hide-m">
+						<a href="https://github.com/studiobeneath/zap-css" class="s-btn -round -broad -outline -small">
+							Download
+						</a>
+					</div>
+					<a href="#" class="m-nav__item -hamburger js-slide-toggle">
+						<span></span>
+					</a>
+				</div>
+			</nav>
+		</nav>
+	</div>
+</header>
+
+
+<section class="l-band u-pad-y-10vh">
+  <div class="l-wrap">
+    <div class="l-row -wide">
+      <div class="l-col -w-16 -t-4 -d-4 u-hide-m">
+        
+
+
+<ul class="m-list -sidebar js-sidebar">
+	<li class="m-list__item">
+		<h6 class="s-head -tight -semi-bold">Getting Started</h6>
+		<ul>
+			<li>
+				<a href="/doc/getting-started/introduction" >
+					Introduction
+				</a>
+			</li>
+			<li>
+				<a href="/doc/getting-started/structure-and-organization" >Structure and Organization</a>
+			</li>
+			<li>
+				<a href="/doc/getting-started/naming-rules" >Naming Rules</a>
+			</li>
+			<li>
+				<a href="/doc/getting-started/pattern-definitions" >Pattern Definitions</a>
+			</li>
+			<li>
+				<a href="/doc/getting-started/common-modifiers" >Common Modifiers</a>
+			</li>
+			<li>
+				<a href="/doc/getting-started/themes" >Themes</a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="m-list__item">
+		<h6 class="s-head -tight -semi-bold">Base</h6>
+		<ul>
+			<li>
+				<a href="/doc/base/configuration" >Configuration</a>
+			</li>
+			<li>
+				<a href="/doc/base/reset" >Reset</a>
+			</li>
+			<li>
+				<a href="/doc/base/global" >Global</a>
+			</li>
+			<li>
+				<a href="/doc/base/mixins" >Mixin</a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="m-list__item">
+		<h6 class="s-head -tight -semi-bold">Layout</h6>
+		<ul>
+			<li>
+				<a href="/doc/layout/wrapper" >Wrapper</a>
+			</li>
+			<li>
+				<a href="/doc/layout/frame" >Frame</a>
+			</li>
+			<li>
+				<a href="/doc/layout/row" >Row</a>
+			</li>
+			<li>
+				<a href="/doc/layout/column" >Column</a>
+			</li>
+			<li>
+				<a href="/doc/layout/band" >Band</a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="m-list__item">
+		<h6 class="s-head -tight -semi-bold">Module</h6>
+		<ul>
+			<li>
+				<a href="/doc/module/list" >List</a>
+			</li>
+			<li>
+				<a href="/doc/module/media-object" >Media Object</a>
+			</li>
+			<li>
+				<a href="/doc/module/table" >Table</a>
+			</li>
+			<li>
+				<a href="/doc/module/form" class="is-active">Form</a>
+			</li>
+			<li>
+				<a href="/doc/module/navigation" >Navigation</a>
+			</li>
+			<li>
+				<a href="/doc/module/breadcrumb" >Breadcrumb</a>
+			</li>
+			<li>
+				<a href="/doc/module/tab" >Tab</a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="m-list__item">
+		<h6 class="s-head -tight -semi-bold">Single</h6>
+		<ul>
+			<li>
+				<a href="/doc/single/button" >Button</a>
+			</li>
+			<li>
+				<a href="/doc/single/header" >Header</a>
+			</li>
+			<li>
+				<a href="/doc/single/image" >Image</a>
+			</li>
+			<li>
+				<a href="/doc/single/line" >Line</a>
+			</li>
+			<li>
+				<a href="/doc/single/thumb" >Thumb</a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="m-list__item">
+		<h6 class="s-head -tight -semi-bold">Utility</h6>
+		<ul>
+			<li>
+				<a href="/doc/utility/align" >Align</a>
+			</li>
+			<li>
+				<a href="/doc/utility/color" >Color</a>
+			</li>
+			<li>
+				<a href="/doc/utility/float" >Float</a>
+			</li>
+			<li>
+				<a href="/doc/utility/padding" >Padding</a>
+			</li>
+			<li>
+				<a href="/doc/utility/margin" >Margin</a>
+			</li>
+			<li>
+				<a href="/doc/utility/distribution" >Distribution</a>
+			</li>
+			<li>
+				<a href="/doc/utility/hide" >Hide</a>
+			</li>
+			<li>
+				<a href="/doc/utility/show" >Show</a>
+			</li>
+			<li>
+				<a href="/doc/utility/border" >Border</a>
+			</li>
+			<li>
+				<a href="/doc/utility/fade" >Fade</a>
+			</li>
+			<li>
+				<a href="/doc/utility/fill" >Fill</a>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+      </div>
+      <div class="l-col -w-16 -t-12 -d-11 -doc">
+        <h2 id="form">Form</h2>
+
+<p>The form module separates each row of fields with the <code class="highlighter-rouge">m-form__item</code> class container.</p>
+
+<h3 id="basic-form">Basic Form</h3>
+
+<form class="m-form">
+
+  <div class="m-form__item">
+    <label for="email">Username</label>
+    <input id="email" type="email" placeholder="Email" />
+    <span class="m-form__message">This is a required field.</span>
+  </div>
+
+  <div class="m-form__item">
+    <label for="password">Password</label>
+    <input id="password" type="password" placeholder="Password" />
+  </div>
+
+  <div class="m-form__item">
+    <label class="m-form__checkbox">
+      I agree to the Terms and Conditions
+      <input type="checkbox" />
+      <div class="m-form__checkbox-indicator"></div>
+    </label>
+  </div>
+
+  <button type="submit" class="s-button -broad">
+    Submit
+  </button>
+
+</form>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;form</span> <span class="na">class=</span><span class="s">"m-form"</span><span class="nt">&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"email"</span><span class="nt">&gt;</span>Username<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"email"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"Email"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"m-form__message"</span><span class="nt">&gt;</span>This is a required field.<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"password"</span><span class="nt">&gt;</span>Password<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"password"</span> <span class="na">type=</span><span class="s">"password"</span> <span class="na">placeholder=</span><span class="s">"Password"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"m-form__checkbox"</span><span class="nt">&gt;</span>
+      I agree to the Terms and Conditions
+      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">/&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__checkbox-indicator"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">class=</span><span class="s">"s-button -broad"</span><span class="nt">&gt;</span>
+    Submit
+  <span class="nt">&lt;/button&gt;</span>
+
+<span class="nt">&lt;/form&gt;</span>
+</code></pre></div></div>
+
+<h3 id="disabled-fields">Disabled Fields</h3>
+
+<p>The disabled state blends the style into the background and disabled the clickable state.</p>
+
+<form class="m-form">
+  <div class="m-form__item">
+    <label for="email">Email</label>
+    <input id="email" type="email" placeholder="Email" value="jin@litmos.com" disabled="disabled" />
+  </div>
+
+
+  <div class="m-form__item">
+    <label for="password">Password</label>
+    <input id="password" type="password" placeholder="Password" disabled="disabled" />
+  </div>
+
+  <div class="m-form__item">  
+    <label class="m-form__checkbox -checkbox">Disabled &amp; checked
+      <input type="checkbox" disabled="disabled" checked="checked" />
+      <div class="m-form__checkbox-indicator"></div>
+    </label>
+
+    <label class="m-form__radio">Disabled &amp; checked
+      <input type="radio" name="radio2" disabled="disabled" checked="checked" />
+      <div class="m-form__radio-indicator"></div>
+    </label>
+  </div>
+
+  <div class="m-form__item">
+    <div class="m-form__select">
+      <select disabled="disabled">
+        <option>Disabled</option>
+        <option>Option</option>
+        <option>Option</option>
+      </select>
+      <div class="m-form__select-arrow"></div>
+    </div>
+  </div>
+</form>
+
+<h3 id="multi-column-fields">Multi-Column Fields</h3>
+
+<p>Here is an example of a Company Information form in multi-column format.</p>
+
+<div class="l-row">
+  <div class="l-col -m-16 -t-15 -d-14">
+    <form class="m-form">
+      <h5 class="s-head -semi-bold -ruled">
+        Company Information
+      </h5>
+      <div class="l-row -narrow">
+        <div class="l-col -m-16 -t-8">
+          <div class="m-form__item">
+            <label for="firstname" class="-required">Company</label>
+            <input id="firstname" type="text" placeholder="Company" class="-fluid" />
+          </div>
+        </div>
+        <div class="l-col -m-16 -t-8">
+          <div class="m-form__item">
+            <label for="lastname" class="">Title</label>
+            <input id="lastname" type="text" placeholder="Digital Designer" value="Digital Designer" disabled="disabled" class="-fluid" />
+          </div>
+        </div>
+      </div>
+
+      <div class="m-form__item">
+        <label for="username" class="-required">Address</label>
+        <input id="username" type="text" placeholder="Level 5, Graham St" class="-fluid u-marg-bottom-small" />
+        <input id="username" type="text" placeholder="Central" class="-fluid" />
+        <span class="m-form__message">Most people use an email addres as their username</span>
+      </div>
+
+      <div class="l-row -narrow">
+        <div class="l-col -m-16 -t-8">
+          <div class="m-form__item">
+            <label for="email">City</label>
+            <input id="email" type="email" placeholder="City" class="-fluid" />
+          </div>
+        </div>
+        <div class="l-col -m-16 -t-8">
+          <div class="m-form__item">
+            <label for="email">State</label>
+            <input id="website" type="Website" placeholder="State" class="-fluid" />
+          </div>
+        </div>
+      </div>
+
+      <div class="l-row -narrow">
+        <div class="l-col -m-16 -t-8">
+          <div class="m-form__item">
+            <label for="email">Zip</label>
+            <input id="email" type="email" placeholder="City" class="-fluid" />
+          </div>
+        </div>
+        <div class="l-col -m-16 -t-8">
+          <div class="m-form__item">
+            <label for="email">Country</label>
+            <div class="m-form__select -fluid">
+              <select>
+                <option>USA</option>
+                <option>New Zealand</option>
+                <option>Australia</option>
+              </select>
+              <div class="m-form__select-arrow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="m-form__item">
+        <button type="submit" class="s-button -broad">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;form</span> <span class="na">class=</span><span class="s">"m-form"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h5</span> <span class="na">class=</span><span class="s">"s-head -semi-bold -ruled"</span><span class="nt">&gt;</span>
+    Company Information
+  <span class="nt">&lt;/h5&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"l-row -narrow"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"l-col -m-16 -t-8"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"firstname"</span> <span class="na">class=</span><span class="s">"-required"</span><span class="nt">&gt;</span>Company<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"firstname"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Company"</span> <span class="na">class=</span><span class="s">"-fluid"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"l-col -m-16 -t-8"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"lastname"</span> <span class="na">class=</span><span class="s">""</span><span class="nt">&gt;</span>Title<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"lastname"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Digital Designer"</span> <span class="na">value=</span><span class="s">"Digital Designer"</span> <span class="na">disabled=</span><span class="s">"disabled"</span> <span class="na">class=</span><span class="s">"-fluid"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"username"</span> <span class="na">class=</span><span class="s">"-required"</span><span class="nt">&gt;</span>Address<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"username"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Level 5, Graham St"</span> <span class="na">class=</span><span class="s">"-fluid u-marg-bottom-small"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"username"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Central"</span> <span class="na">class=</span><span class="s">"-fluid"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"m-form__message"</span><span class="nt">&gt;</span>Most people use an email addres as their username<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"l-row -narrow"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"l-col -m-16 -t-8"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"email"</span><span class="nt">&gt;</span>City<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"email"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"City"</span> <span class="na">class=</span><span class="s">"-fluid"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"l-col -m-16 -t-8"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"email"</span><span class="nt">&gt;</span>State<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"website"</span> <span class="na">type=</span><span class="s">"Website"</span> <span class="na">placeholder=</span><span class="s">"State"</span> <span class="na">class=</span><span class="s">"-fluid"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"l-row -narrow"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"l-col -m-16 -t-8"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"email"</span><span class="nt">&gt;</span>Zip<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"email"</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">placeholder=</span><span class="s">"City"</span> <span class="na">class=</span><span class="s">"-fluid"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"l-col -m-16 -t-8"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"email"</span><span class="nt">&gt;</span>Country<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__select -fluid"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;select&gt;</span>
+            <span class="nt">&lt;option&gt;</span>USA<span class="nt">&lt;/option&gt;</span>
+            <span class="nt">&lt;option&gt;</span>New Zealand<span class="nt">&lt;/option&gt;</span>
+            <span class="nt">&lt;option&gt;</span>Australia<span class="nt">&lt;/option&gt;</span>
+          <span class="nt">&lt;/select&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__select-arrow"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"m-form__item"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">class=</span><span class="s">"s-button -broad"</span><span class="nt">&gt;</span>
+      Submit
+    <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+</code></pre></div></div>
+
+<h3 id="alternate-forms">Alternate Forms</h3>
+
+<p>When forms sit inside a card fields can be altered in color to better suit its background using the <code class="highlighter-rouge">-card</code> modifier.</p>
+
+<div class="l-row">
+  <div class="l-col -m-16 -t-15 -d-14">
+    <div class="l-band -white u-pad-tight">
+      <form class="m-form -card">
+        <h5 class="s-head -semi-bold -ruled">
+          General Information
+        </h5>
+        <div class="l-row -narrow">
+          <div class="l-col -m-16 -t-8">
+            <div class="m-form__item">
+              <label for="firstname" class="-required">Firstname</label>
+              <input id="firstname" type="text" placeholder="Firstname" value="Jin" disabled="disabled" class="-fluid" />
+            </div>
+          </div>
+          <div class="l-col -m-16 -t-8">
+            <div class="m-form__item">
+              <label for="lastname" class="-required">Lastname</label>
+              <input id="lastname" type="text" placeholder="Lastname" class="-fluid" />
+            </div>
+          </div>
+        </div>
+
+        <div class="m-form__item">
+          <label for="username" class="-required">Username</label>
+          <input id="username" type="text" placeholder="jinsupark252" class="-fluid" />
+          <span class="m-form__message">Most people use an email addres as their username</span>
+        </div>
+
+        <div class="l-row -narrow">
+          <div class="l-col -m-16 -t-8">
+            <div class="m-form__item">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="Email" class="-fluid" />
+            </div>
+          </div>
+          <div class="l-col -m-16 -t-8">
+            <div class="m-form__item">
+              <label for="email">Website</label>
+              <input id="website" type="Website" placeholder="Litmos.com" class="-fluid" />
+            </div>
+          </div>
+        </div>
+
+        <div class="m-form__item">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Email" />
+          <span class="m-form__message">This is a required field.</span>
+        </div>
+
+        <div class="m-form__item">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Password" />
+        </div>
+
+        <div class="m-form__item">
+
+          <label class="m-form__checkbox -checkbox">First checkbox
+            <input type="checkbox" checked="checked" />
+            <div class="m-form__checkbox-indicator"></div>
+          </label>
+
+          <label class="m-form__checkbox -checkbox">Second checkbox
+            <input type="checkbox" />
+            <div class="m-form__checkbox-indicator"></div>
+          </label>
+
+          <label class="m-form__checkbox -checkbox">Disabled &amp; checked
+            <input type="checkbox" disabled="disabled" checked="checked" />
+            <div class="m-form__checkbox-indicator"></div>
+          </label>
+
+          <label class="m-form__radio">First radio
+            <input type="radio" name="radio" checked="checked" />
+            <div class="m-form__radio-indicator"></div>
+          </label>
+          <label class="m-form__radio">Second radio
+            <input type="radio" name="radio" />
+            <div class="m-form__radio-indicator"></div>
+          </label>
+          <label class="m-form__radio">Disabled &amp; checked
+            <input type="radio" name="radio2" disabled="disabled" checked="checked" />
+            <div class="m-form__radio-indicator"></div>
+          </label>
+        </div>
+
+        <div class="m-form__item">
+          <label for="email">Email</label>
+          <div class="m-form__select">
+            <select>
+              <option>First select</option>
+              <option>Option</option>
+              <option>Option</option>
+            </select>
+            <div class="m-form__select-arrow"></div>
+          </div>
+        </div>
+
+        <div class="m-form__item">
+          <div class="m-form__select">
+            <select disabled="disabled">
+              <option>Disabled</option>
+              <option>Option</option>
+              <option>Option</option>
+            </select>
+            <div class="m-form__select-arrow"></div>
+          </div>
+        </div>
+
+        <button type="submit" class="s-button -broad">
+          Submit
+        </button>
+        <span class="u-pad-x-small u-align-middle">
+          or
+        </span>
+        <a href="#" class="s-head -inline -semi-bold u-align-middle">
+          Close
+        </a>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;form</span> <span class="na">class=</span><span class="s">"m-form -card"</span><span class="nt">&gt;</span>
+  ...
+<span class="nt">&lt;/form&gt;</span>
+</code></pre></div></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

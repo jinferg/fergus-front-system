@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Studio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-3" transform="translate(-332.000000, -448.000000)" stroke="#52B4FF" stroke-width="2">
+            <path d="M340.221853,451.913905 L343.216956,456.982541 L343.216956,456.982541 C343.778883,457.933495 343.463515,459.159926 342.512562,459.721853 C342.204409,459.903944 341.853035,460 341.495103,460 L335.504897,460 L335.504897,460 C334.400327,460 333.504897,459.104569 333.504897,458 C333.504897,457.642068 333.600953,457.290695 333.783044,456.982541 L336.778147,451.913905 L336.778147,451.913905 C337.340074,450.962952 338.566505,450.647584 339.517459,451.209511 C339.807909,451.38114 340.050223,451.623455 340.221853,451.913905 Z" id="Triangle" transform="translate(338.500000, 454.500000) scale(1, -1) translate(-338.500000, -454.500000) "></path>
+        </g>
+    </g>
+</svg>
